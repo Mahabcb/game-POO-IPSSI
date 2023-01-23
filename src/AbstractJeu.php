@@ -12,6 +12,7 @@ abstract class AbstractJeu{
     {
         $this->life = 100;
         $this->strength = rand(0, 10);
+        $this->name = 'Joueur';
     }
 
    public function setName($name)

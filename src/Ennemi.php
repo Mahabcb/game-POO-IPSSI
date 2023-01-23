@@ -11,6 +11,7 @@ final class Ennemi extends AbstractJeu implements GamePlayInterface{
     {
         parent::__construct();
         $this->location = 'Nantes';
+        $this->name = 'Gobelin';
     }
 
    public function attack(AbstractJeu $ennemi) : string
